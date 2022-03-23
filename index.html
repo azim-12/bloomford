@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            if (window.scrollY >= 100) document.querySelector('.nav-container').classList.add('solid-nav');
+            else document.querySelector('.nav-container').classList.remove('solid-nav');
+        })
+    </script>
+    <main>
+        <!-- Navigation menu starts from here -->
+        <section class="nav-container container-fluid">
+            <nav>
+                <div class="hemburger-container">
+                    <button id="hemburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                </div>
+                <div class="logo-container">
+                    <a href="#" alt="logo">
+                        <img src="./img/bloomford-logo-blue.svg" alt="Bloomford Primary logo">
+                    </a>
+                </div>
+                <div class="lan-btn">
+                    <img src="./img/belgium-flag-icon.svg" alt="langauge lag">
+                    <img src="./img/play-button.png" alt="language dropdown">
+                </div>
+                <div class="btn-container">
+                    <a href=""><button class="std-btn std-btn-blue">Aanmelden</button></a>
+                    <a href=""><button class="std-btn std-btn-red">Kandidaten</button></a>
+                </div>
+            </nav>
+        </section>
+        <!-- Navigation menu ends here -->
+
+        <!-- Hero section starts from here -->
+        <section class="hero-container container-fluid">
+            <div class="background-img">
+                <img src="./img/hero-bg.png" alt="hero section background image" class="hero-bg">
+            </div>
+
+            <div class="wrapper">
+                <div class="side-menu">
+                    <p class="std-para std-para-bold vertical-para">Volg Bloomford</p>
+                    <span class="side-line"></span>
+                    <div class="icon-container">
+                        <a href="#"><img src="./img/facebook-icon.svg" alt="FB Icon"></a>
+                        <a href="#"><img src="./img/twitter-icon.svg" alt="Twitter Icon"></a>
+                        <a href="#"><img src="./img/linkedin-icon.svg" alt="LinkedIn Icon"></a>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="hero-content-container col-xl-6 col-lg-8 col-12 pt-5 pt-lg-0">
+                        <div class="hero-heading ">
+                            <h1 class="std-heading">Efficiënt, doeltreffend en transparant !</h1>
+                        </div>
+                        <div class="hero-paragraph">
+                            <p class="std-para std-para-bold">Dankzij een innovatieve aanwervingsprocedure, de allernieuwste technologieën en een erg nauwe samenwerking met onze klanten, leiden de Bloomford-consulenten hen supersnel naar doeltreffende interviews.</p>
+                            <p class="std-para std-para-bold">Weg met die ellenlange aanwervingsprocedures die veel geld en tijd kosten!</p>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#"><button class="std-home-btn std-home-btn-blue">Ontdek meer</button></a>
+                        </div>
+                    </div>
+                    <div class="hero-img-container col-xl-6 col-lg-4 col-sm-10 mx-sm-auto col-12 ">
+                        <div class="header-image">
+                            <img src="./img/client-home-hero-image.svg" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-footer-container">
+                <a href="#"><img src="./img/scroll-bottom-mouse.svg" alt=""></a>
+            </div>
+        </section>
+
+        <section class="works-container container-fluid">
+            <div class="works-bg-img">
+                <img src="./img/works-bg.png" alt="How it works Backkground">
+            </div>
+            <div class="row">
+                <div class="works-image-container col-lg-7 col-sm-10 col-12">
+                    <img src="./img/how-it-works-img.png" alt="">
+                </div>
+                <div class="works-content-container col-lg-5 col-xl-4 col-md-12 pt-5 pt-lg-0">
+                    <div class="works-heading">
+                        <h1 class="std-heading">How it works?</h1>
+                    </div>
+                    <div class="works-para">
+                        <div>
+                            <h1 class="para-heading">1</h1>
+                            <p class="works-paragraph">We bekijken samen met u uw gedetailleerde vacature en bepalen de eigenschappen, talenten en troeven van de ideale kandidaat. Een sterk afgelijnd profiel maakt het werk zoveel gemakkelijker!</p>
+                        </div>
+                        <div>
+                            <h1 class="para-heading">2</h1>
+                            <p class="works-paragraph">We raadplegen interne en externe databases, sociale netwerken en v acaturesites om die ideale kandidaat te zoeken. Er lopen nog zoveel talenten rond!</p>
+                        </div>
+                        <div>
+                            <h1 class="para-heading">3</h1>
+                            <p class="works-paragraph">We stellen de meest geschikte en volledig gescreende kandidaten aan u voor. Op basis van uw feedback plannen we de video-interviews. Eerlijk, authentiek en spontaan!</p>
+                        </div>
+                        <div>
+                            <h1 class="para-heading">4</h1>
+                            <p class="works-paragraph">U selecteert en werft de beste kandidaat aan. Reken maar dat u niet langer wakker ligt van uw keuze!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video-container container-fluid">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="video-content-container col-md-12 col-lg-6 pt-5 pt-lg-0">
+                        <div class="video-heading">
+                            <h1 class="std-heading">Sterke video wijst weg naar topkandidaat
+                            </h1>
+                        </div>
+                        <div class="video-content">
+                            <p class="std-para">Eén beeldverhaal zegt zoveel meer dan duizend vacatures. Een eerlijke, authentieke video vormt een ideale ‘shortcut’ naar die topkandidaat. Loop niet langer smadelijke teleurstellingen op.</p>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#"><button class="std-home-btn std-home-btn-blue">Ontdek meer</button></a>
+                        </div>
+                    </div>
+                    <div class="video-image-container">
+                        <img src="./img/video-img.png" alt="Video Section Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-container container-fluid">
+            <div class="card-bg-img">
+                <img src="./img/card-bg-img.png" alt="Card Background Image">
+            </div>
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-sm-6 col-xl-4 px-4 mt-4 mt-xl-0">
+                        <div class="card-section">
+                            <img src="./img/pc-bulb-image.svg" alt="Card Image">
+                            <h3 class="std-subheading-md">Innovatief</h3>
+                            <p class="std-para">Als werkgever bekijkt u de video’s van sollicitanten vanop uw bureau. Een erg tijdsbesparend alternatief voor de vaak ellenlange aanwervingsprocedures.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 px-4 mt-4 mt-xl-0">
+                        <div class="card-section">
+                            <img src="./img/pc-bulb-img2.svg" alt="Card Image">
+                            <h3 class="std-subheading-md">Doeltreffend</h3>
+                            <p class="std-para">Video toont u de unieke troeven die elke sollicitant te bieden heeft. Dat vereenvoudigt uw keuzeproces aanzienlijk. Mis deze kans niet!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 px-4 mt-4 mt-xl-0">
+                        <div class="card-section">
+                            <img src="./img/pc-bulb-img3.svg" alt="Card Image">
+                            <h3 class="std-subheading-md">Transparant</h3>
+                            <p class="std-para">U krijgt een veel transparanter zicht op de persoonlijkheid van de kandidaat-werknemers en weet onmiddellijk ‘welke vis u op uw bord krijgt’.
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="help-container container-fluid">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="help-content-container col-md-12 col-lg-10 col-xl-10">
+                        <div class="help-subheading">
+                            <h2 class="std-subheading">Ready to get started?</h2>
+                        </div>
+                        <div class="help-heading">
+                            <h1 class="std-heading">Let us help to find the Best job.
+                            </h1>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#"><button class="std-home-btn std-home-btn-blue">Contacteer ons</button></a>
+                        </div>
+                    </div>
+                    <div class="help-image-container d-none d-sm-block col-sm-6 col-md-6 col-lg-5 col-xl-5 pt-4 pt-lg-o">
+                        <img src="./img/bloomford-pc-image.png" alt="Help Section Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section class="footer-container container-fluid">
+                <div class="wrapper">
+                    <div class="row mt-sm-5 mt-md-0">
+                        <div class="footer-logo-container col-lg-12 col-xl-3 mb-3 mb-sm-4 mb-md-0">
+                            <img src="./img/bloomford-logo-white.svg" alt="Bloomford footer logo">
+                        </div>
+                        <div class="footer-contact-container col-sm-6 col-lg-4 col-xl-3 mt-3 mt-sm-4 mt-md-5 mt-xl-0">
+                            <h3 class="std-subheading-md">Contact Bloomford</h3>
+                            <ul>
+                                <li>
+                                    <p class="std-para-bold">Bloomford<br> Lange Lozanastraat 142<br> 2018 Antwerpen
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="std-para-bold">info@bloomford.be</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <p class="std-para-bold"> +32 3 346 01 60</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-links-container col-sm-6 col-lg-4 col-xl-3 mt-3 mt-sm-4 mt-md-5 mt-xl-0">
+                            <div>
+                                <h3 class="std-subheading-md">Ontdek Bloomford</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <p class="std-para-bold">Home</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="std-para-bold">Hoe we werken</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="std-para-bold">Over ons</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="std-para-bold">Contact</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <p class="std-para-bold">Aanmelden</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-social-container col-lg-4 col-xl-3 mt-3 mt-sm-4 mt-md-5 mt-xl-0">
+                            <h3 class="std-subheading-md">Volg Bloomford</h3>
+                            <div class="footer-icon-container">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright-container">
+                        <p class="std-para std-para-bold"> &copy; 2019 Julax bvba. All rights reserved - Disclaimer - Privacy - Cookies - Algemene voorwaarden - Sitemap - Designed by Socoloff Creative</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+</body>
+
+</html>

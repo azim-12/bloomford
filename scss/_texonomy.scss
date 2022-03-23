@@ -1,0 +1,28 @@
+.std-heading {
+    @extend .font-47;
+}
+
+.std-subheading {
+    @extend .font-37;
+}
+
+.std-subheading-md {
+    @extend .font-29;
+}
+
+.std-subheading-sm {
+    @extend .font-23;
+}
+
+.std-para {
+    @extend .font-18;
+}
+
+.std-para-bold {
+    font-weight: $bold;
+}
+
+.std-form-text {
+    @extend .font-18;
+    filter: brightness(0%);
+}
